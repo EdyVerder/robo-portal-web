@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 357" width="900" height="357" role="img" aria-label="python -m robo">
+  <rect x=".5" y=".5" width="899" height="356" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <rect x=".5" y=".5" width="899" height="34" rx="12" fill="#161b22"/>
+  <rect x=".5" y="22" width="899" height="13" fill="#161b22"/>
+  <line x1="0" y1="35" x2="900" y2="35" stroke="#30363d"/>
+  <circle cx="22" cy="18" r="6" fill="#ff5f57"/><circle cx="42" cy="18" r="6" fill="#febc2e"/><circle cx="62" cy="18" r="6" fill="#28c840"/>
+  <text x="450.0" y="22" text-anchor="middle" fill="#7d8590" style="font:500 12px 'Segoe UI',Helvetica,Arial,sans-serif">python -m robo</text>
+  <g style="font:13px 'JetBrains Mono','Cascadia Mono',Consolas,'Courier New',monospace">
+  <text x="24" y="58" xml:space="preserve"><tspan fill="#e6edf3">$ python -m robo</tspan></text>
+<text x="24" y="79" xml:space="preserve"><tspan fill="#7d8590">13:56:55</tspan><tspan fill="#e6edf3"> #1 000.***.***-72 CONCLUÍDO, protocolo PC-2026-675719</tspan></text>
+<text x="24" y="100" xml:space="preserve"><tspan fill="#7d8590">13:56:58</tspan><tspan fill="#e6edf3"> #2 000.***.***-80 portal instável (Sistema temporariamente indisponível. Tente novamente.); nova tentativa em 1 s</tspan></text>
+<text x="24" y="121" xml:space="preserve"><tspan fill="#7d8590">13:57:02</tspan><tspan fill="#e6edf3"> #2 000.***.***-80 CONCLUÍDO, protocolo PC-2026-412903</tspan></text>
+<text x="24" y="142" xml:space="preserve"><tspan fill="#7d8590">13:57:05</tspan><tspan fill="#e6edf3"> #3 000.***.***-00 CONCLUÍDO, protocolo PC-2026-443779</tspan></text>
+<text x="24" y="163" xml:space="preserve"><tspan fill="#7d8590">13:57:07</tspan><tspan fill="#e6edf3"> #4 000.***.***-00 REVISAR: CPF inválido.</tspan></text>
+<text x="24" y="184" xml:space="preserve"><tspan fill="#7d8590">13:57:09</tspan><tspan fill="#e6edf3"> #5 000.***.***-80 portal instável (Sistema temporariamente indisponível. Tente novamente.); nova tentativa em 1 s</tspan></text>
+<text x="24" y="205" xml:space="preserve"><tspan fill="#7d8590">13:57:13</tspan><tspan fill="#e6edf3"> #5 000.***.***-80 CONCLUÍDO, protocolo PC-2026-325190</tspan></text>
+<text x="24" y="226" xml:space="preserve"><tspan fill="#7d8590">13:57:16</tspan><tspan fill="#e6edf3"> #6 000.***.***-82 portal instável (Sistema temporariamente indisponível. Tente novamente.); nova tentativa em 1 s</tspan></text>
+<text x="24" y="247" xml:space="preserve"><tspan fill="#7d8590">13:57:20</tspan><tspan fill="#e6edf3"> #6 000.***.***-82 portal instável (Sistema temporariamente indisponível. Tente novamente.); nova tentativa em 2 s</tspan></text>
+<text x="24" y="268" xml:space="preserve"><tspan fill="#7d8590">13:57:25</tspan><tspan fill="#e6edf3"> #6 000.***.***-82 CONCLUÍDO, protocolo PC-2026-094587</tspan></text>
+<text x="24" y="289" xml:space="preserve"></text>
+<text x="24" y="310" xml:space="preserve"><tspan fill="#e6edf3">fila:</tspan><tspan fill="#e6edf3"> CONCLUIDO 5 · REVISAR 1</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portal de Cadastro · demonstração</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header class="topo"><div class="marca"><span class="logo">◆</span> Portal de Cadastro <em>demonstração</em></div></header>
+
+<main>
+  <section id="tela-login" class="cartao estreito">
+    <h1>Entrar</h1>
+    <p class="dica">Acesso do operador</p>
+    <form id="form-login" novalidate>
+      <label>Usuário <input id="usuario" name="usuario" autocomplete="off"></label>
+      <label>Senha <input id="senha" name="senha" type="password"></label>
+      <p id="erro-login" class="erro" role="alert" hidden></p>
+      <button type="submit">Entrar</button>
+    </form>
+  </section>
+
+  <section id="tela-cadastro" class="cartao" hidden>
+    <div class="linha-titulo"><h1>Novo cadastro</h1><button id="sair" class="secundario" type="button">Sair</button></div>
+    <form id="form-cadastro" novalidate>
+      <div class="grade">
+        <label class="largo">Nome completo <input id="nome" name="nome"></label>
+        <label>CPF <input id="cpf" name="cpf" inputmode="numeric" placeholder="000.000.000-00"></label>
+        <label>Nascimento <input id="nascimento" name="nascimento" type="date"></label>
+        <label>Renda mensal (R$) <input id="renda" name="renda" inputmode="decimal"></label>
+        <label>Modalidade
+          <select id="modalidade" name="modalidade">
+            <option value="">Selecione</option>
+            <option>Aquisição de imóvel novo</option>
+            <option>Aquisição de imóvel usado</option>
+            <option>Construção em terreno próprio</option>
+          </select>
+        </label>
+        <label class="largo">E-mail <input id="email" name="email" type="email"></label>
+      </div>
+      <label class="check"><input id="aceite" type="checkbox"> Declaro que os dados conferem com os documentos</label>
+      <p id="erro-cadastro" class="erro" role="alert" hidden></p>
+      <button id="enviar" type="submit">Enviar cadastro</button>
+    </form>
+  </section>
+
+  <section id="tela-protocolo" class="cartao estreito" hidden>
+    <div class="ok">✓</div>
+    <h1>Cadastro recebido</h1>
+    <p>Protocolo <strong id="protocolo"></strong></p>
+    <button id="novo" type="button">Novo cadastro</button>
+  </section>
+</main>
+
+<div id="carregando" hidden><div class="giro"></div></div>
+<script src="portal.js"></script>
+</body>
+</html>
